@@ -1,0 +1,32 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+numpy = "*"
+protobuf = "*"
+codecov = "*"
+coremltools = "*"
+pandas = "*"
+pytest-cov = "*"
+scipy = "*"
+svm = "*"
+xgboost = "*"
+lightgbm = "*"
+pyspark = "==2.3.2"
+openpyxl = "*"
+mleap = "*"
+onnxruntime = "*"
+
+[packages]
+six = "*"
+numpy = "*"
+protobuf = "*"
+onnx = "*"
+skl2onnx = "*"
+keras2onnx = "*"
+onnxconverter-common = ">=1.5.0"
+
+[requires]
+python_version = "3.7"
